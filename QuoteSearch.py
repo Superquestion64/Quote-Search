@@ -2,7 +2,7 @@
 # Last Modified December 4, 2021
 # This program is a quote finder given an article or txt file
 # Given the url to a CNN, Fox News, or NBC News article,
-# This program will output a select number of quotes from that article
+# This program will output a select number of quotes from the input
 # The user must choose how many quotes to output and whether to read from a txt file or a url
 # Potentially will have a smart quote finder using TextRank
 
