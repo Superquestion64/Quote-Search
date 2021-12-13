@@ -56,8 +56,8 @@ def fox_pull(url):
     body = article.find('div', class_='article-body').text
     return [headline, author, body]
 
-# Given a url to a Fox News article this function will return the headline, author, and body
-# @url is the url to a Fox News article
+# Given a url to an NBC News article this function will return the headline, author, and body
+# @url is the url to a NBC News article
 # Returns the headline, author, and body of the article in an array of strings
 def nbc_pull(url):
     # Pull the source code from the article
@@ -167,7 +167,7 @@ if __name__ == '__main__':
                         'https://www.nbcnews.com/health/health-news/covid-cases-rise-still-delta-not-omicron-driving-surge-rcna7557',
                         'https://www.nbcnews.com/news/weather/forecasters-predicting-snow-hawaii-rcna7613']
         # Call the cnn_pull function to receive the headline, author, and body of a CNN article
-        cnn = cnn_pull(cnn_articles[1])
+        cnn = fox_pull(fox_articles[1])
         choice = int(input("Enter 0 for random quotes or 1 for a smart quote: "))
         while (choice < 0 or choice > 1):
             choice = int(input("Invalid choice! Try again: "))
