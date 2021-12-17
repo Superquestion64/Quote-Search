@@ -9,6 +9,8 @@ This Python application is a quote finder. It will search randomly through given
 **python QuoteSearch.py**
 ## Dependencies
 **Note:** BeautifulSoup4 is a dependency for this application to read through source code properly. summa is another dependency for this application, it implements TextRank which is the smart quote part of this application
-- To install BeautifulSoup4, simply run 'pip install beautifulsoup4'
-- To install summa, simply run 'pip install summa'
+- To install BeautifulSoup4, simply run: <br> <br>
+**pip install beautifulsoup4**
+- To install summa, simply run: <br> <br>
+**pip install summa**
 
